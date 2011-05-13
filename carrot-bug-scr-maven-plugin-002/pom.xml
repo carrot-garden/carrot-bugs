@@ -4,11 +4,17 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.carrotgarden</groupId>
-	<artifactId>carrot-bug-scr-maven-plugin-001</artifactId>
+	<artifactId>carrot-bug-scr-maven-plugin-002</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>bundle</packaging>
 
 	<dependencies>
+
+		<dependency>
+			<groupId>com.carrotgarden</groupId>
+			<artifactId>carrot-bug-scr-maven-plugin-001</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+		</dependency>
 
 		<dependency>
 			<groupId>org.apache.felix</groupId>
