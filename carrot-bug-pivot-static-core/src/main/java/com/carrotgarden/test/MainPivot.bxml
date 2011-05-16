@@ -1,0 +1,16 @@
+<test:WindowExtra title="MainPivot" maximized="true"
+	xmlns:bxml="http://pivot.apache.org/bxml" xmlns="org.apache.pivot.wtk"
+	xmlns:test="com.carrotgarden.test">
+
+	<BoxPane orientation="vertical"
+		styles="{padding:10, horizontalAlignment:'center', verticalAlignment:'center'}">
+
+		<Label text="MainPivot"
+			styles="{font:'Arial bold 24', color:'#ff0000', horizontalAlignment:'center', verticalAlignment:'center'}" />
+
+		<Label text="counter" bxml:id="counter"
+			styles="{font:'Arial bold 24', color:'#ff0000', horizontalAlignment:'center', verticalAlignment:'center'}" />
+
+	</BoxPane>
+
+</test:WindowExtra>
