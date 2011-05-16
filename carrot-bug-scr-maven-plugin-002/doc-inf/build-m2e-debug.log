@@ -1,0 +1,300 @@
+5/16/11 4:13:41 PM CDT: Maven compilation participant: clean starting
+5/16/11 4:13:41 PM CDT: [DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10 for /home/user1/.m2/repository
+5/16/11 4:13:41 PM CDT: Maven compilation participant: clean starting
+5/16/11 4:13:42 PM CDT: [DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10 for /home/user1/.m2/repository
+5/16/11 4:13:42 PM CDT: Maven Builder: FULL_BUILD requireFullBuild
+5/16/11 4:13:42 PM CDT: [DEBUG] Using local repository at /home/user1/.m2/repository
+5/16/11 4:13:42 PM CDT: [DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10 for /home/user1/.m2/repository
+5/16/11 4:13:42 PM CDT: [DEBUG] Extension realms for project com.carrotgarden:carrot-bug-scr-maven-plugin-002:bundle:1.0.0-SNAPSHOT: [ClassRealm[extension>org.apache.felix:maven-bundle-plugin:2.3.5-SNAPSHOT, parent: sun.misc.Launcher$AppClassLoader@546b97fd]]
+5/16/11 4:13:42 PM CDT: [DEBUG] Looking up lifecyle mappings for packaging bundle from ClassRealm[project>com.carrotgarden:carrot-util:1.0.0-SNAPSHOT, parent: ClassRealm[maven.api, parent: null]]
+5/16/11 4:13:42 PM CDT: [DEBUG] === REACTOR BUILD PLAN ================================================
+5/16/11 4:13:42 PM CDT: [DEBUG] Project: com.carrotgarden:carrot-bug-scr-maven-plugin-002:bundle:1.0.0-SNAPSHOT
+5/16/11 4:13:42 PM CDT: [DEBUG] Tasks:   [process-test-resources]
+5/16/11 4:13:42 PM CDT: [DEBUG] Style:   Regular
+5/16/11 4:13:42 PM CDT: [DEBUG] =======================================================================
+5/16/11 4:13:42 PM CDT: [DEBUG] Resolving plugin version for org.apache.maven.plugins:maven-install-plugin
+5/16/11 4:13:42 PM CDT: [DEBUG] Could not find metadata org.apache.maven.plugins:maven-install-plugin/maven-metadata.xml in local (/home/user1/.m2/repository)
+5/16/11 4:13:42 PM CDT: [DEBUG] Skipped remote update check for org.apache.maven.plugins:maven-install-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+5/16/11 4:13:42 PM CDT: [DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-install-plugin to 2.3.1 from repository barchart-nexus-server (https://moe.barchart.com/nexus/content/groups/all, releases=true, snapshots=true, managed=false)
+5/16/11 4:13:42 PM CDT: [DEBUG] Resolving plugin version for org.apache.maven.plugins:maven-resources-plugin
+5/16/11 4:13:42 PM CDT: [DEBUG] Could not find metadata org.apache.maven.plugins:maven-resources-plugin/maven-metadata.xml in local (/home/user1/.m2/repository)
+5/16/11 4:13:42 PM CDT: [DEBUG] Skipped remote update check for org.apache.maven.plugins:maven-resources-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+5/16/11 4:13:42 PM CDT: [DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-resources-plugin to 2.4.3 from repository barchart-nexus-server (https://moe.barchart.com/nexus/content/groups/all, releases=true, snapshots=true, managed=false)
+5/16/11 4:13:42 PM CDT: [DEBUG] Resolving plugin version for org.apache.maven.plugins:maven-surefire-plugin
+5/16/11 4:13:42 PM CDT: [DEBUG] Could not find metadata org.apache.maven.plugins:maven-surefire-plugin/maven-metadata.xml in local (/home/user1/.m2/repository)
+5/16/11 4:13:42 PM CDT: [DEBUG] Skipped remote update check for org.apache.maven.plugins:maven-surefire-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+5/16/11 4:13:42 PM CDT: [DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-surefire-plugin to 2.8.1 from repository barchart-nexus-server (https://moe.barchart.com/nexus/content/groups/all, releases=true, snapshots=true, managed=false)
+5/16/11 4:13:42 PM CDT: [DEBUG] Resolving plugin version for org.apache.maven.plugins:maven-compiler-plugin
+5/16/11 4:13:42 PM CDT: [DEBUG] Could not find metadata org.apache.maven.plugins:maven-compiler-plugin/maven-metadata.xml in local (/home/user1/.m2/repository)
+5/16/11 4:13:42 PM CDT: [DEBUG] Skipped remote update check for org.apache.maven.plugins:maven-compiler-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+5/16/11 4:13:42 PM CDT: [DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-compiler-plugin to 2.3.2 from repository barchart-nexus-server (https://moe.barchart.com/nexus/content/groups/all, releases=true, snapshots=true, managed=false)
+5/16/11 4:13:42 PM CDT: [DEBUG] Resolving plugin version for org.apache.maven.plugins:maven-deploy-plugin
+5/16/11 4:13:42 PM CDT: [DEBUG] Could not find metadata org.apache.maven.plugins:maven-deploy-plugin/maven-metadata.xml in local (/home/user1/.m2/repository)
+5/16/11 4:13:42 PM CDT: [DEBUG] Skipped remote update check for org.apache.maven.plugins:maven-deploy-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+5/16/11 4:13:42 PM CDT: [DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-deploy-plugin to 2.5 from repository barchart-nexus-server (https://moe.barchart.com/nexus/content/groups/all, releases=true, snapshots=true, managed=false)
+5/16/11 4:13:42 PM CDT: [DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+5/16/11 4:13:42 PM CDT: [DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+5/16/11 4:13:42 PM CDT: [DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+5/16/11 4:13:42 PM CDT: [DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+5/16/11 4:13:42 PM CDT: [DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+5/16/11 4:13:42 PM CDT: [DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+5/16/11 4:13:42 PM CDT: [DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+5/16/11 4:13:42 PM CDT: [DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+5/16/11 4:13:42 PM CDT: [DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+5/16/11 4:13:42 PM CDT: [DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+5/16/11 4:13:42 PM CDT: [DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+5/16/11 4:13:42 PM CDT: [DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+5/16/11 4:13:42 PM CDT: [DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+5/16/11 4:13:42 PM CDT: [DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+5/16/11 4:13:42 PM CDT: [DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+5/16/11 4:13:42 PM CDT: [DEBUG] === PROJECT BUILD PLAN ================================================
+5/16/11 4:13:42 PM CDT: [DEBUG] Project:       com.carrotgarden:carrot-bug-scr-maven-plugin-002:1.0.0-SNAPSHOT
+5/16/11 4:13:42 PM CDT: [DEBUG] Dependencies (collect): []
+5/16/11 4:13:42 PM CDT: [DEBUG] Dependencies (resolve): [compile, test]
+5/16/11 4:13:42 PM CDT: [DEBUG] Repositories (dependencies): [barchart-nexus-server (https://moe.barchart.com/nexus/content/groups/all, releases=true, snapshots=true, managed=false), sonatype-nexus-snapshots (https://oss.sonatype.org/content/repositories/snapshots, releases=false, snapshots=true, managed=false)]
+5/16/11 4:13:42 PM CDT: [DEBUG] Repositories (plugins)     : [barchart-nexus-server (https://moe.barchart.com/nexus/content/groups/all, releases=true, snapshots=true, managed=false)]
+5/16/11 4:13:42 PM CDT: [DEBUG] -----------------------------------------------------------------------
+5/16/11 4:13:42 PM CDT: [DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.4.3:resources (default-resources)
+5/16/11 4:13:42 PM CDT: [DEBUG] Style:         Regular
+5/16/11 4:13:42 PM CDT: [DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString default-value="${maven.resources.escapeString}"/>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+5/16/11 4:13:42 PM CDT: [DEBUG] -----------------------------------------------------------------------
+5/16/11 4:13:42 PM CDT: [DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile (default-compile)
+5/16/11 4:13:42 PM CDT: [DEBUG] Style:         Regular
+5/16/11 4:13:42 PM CDT: [DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <outputFileName>${project.build.finalName}</outputFileName>
+  <projectArtifact default-value="${project.artifact}"/>
+  <session default-value="${session}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+</configuration>
+5/16/11 4:13:42 PM CDT: [DEBUG] -----------------------------------------------------------------------
+5/16/11 4:13:42 PM CDT: [DEBUG] Goal:          org.apache.felix:maven-scr-plugin:1.7.1-SNAPSHOT:scr (scr)
+5/16/11 4:13:42 PM CDT: [DEBUG] Style:         Regular
+5/16/11 4:13:42 PM CDT: [DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <finalName default-value="serviceComponents.xml">${scr.descriptor.name}</finalName>
+  <generateAccessors default-value="true"/>
+  <metaTypeName default-value="metatype.xml"/>
+  <outputDirectory>./target/classes</outputDirectory>
+  <parseJavadoc default-value="true"/>
+  <processAnnotations default-value="true"/>
+  <project>${project}</project>
+  <strictMode default-value="false"/>
+</configuration>
+5/16/11 4:13:42 PM CDT: [DEBUG] -----------------------------------------------------------------------
+5/16/11 4:13:42 PM CDT: [DEBUG] Goal:          org.apache.felix:maven-bundle-plugin:2.3.5-SNAPSHOT:manifest (manifest)
+5/16/11 4:13:42 PM CDT: [DEBUG] Style:         Regular
+5/16/11 4:13:42 PM CDT: [DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <baseDir>${basedir}</baseDir>
+  <buildDirectory>${project.build.directory}</buildDirectory>
+  <excludeDependencies>${excludeDependencies}</excludeDependencies>
+  <instructions>
+    <Service-Component>OSGI-INF/serviceComponents.xml</Service-Component>
+  </instructions>
+  <manifestLocation default-value="${project.build.outputDirectory}/META-INF">${manifestLocation}</manifestLocation>
+  <outputDirectory>${project.build.outputDirectory}</outputDirectory>
+  <project>${project}</project>
+  <unpackBundle>${unpackBundle}</unpackBundle>
+</configuration>
+5/16/11 4:13:42 PM CDT: [DEBUG] -----------------------------------------------------------------------
+5/16/11 4:13:42 PM CDT: [DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.4.3:testResources (default-testResources)
+5/16/11 4:13:42 PM CDT: [DEBUG] Style:         Regular
+5/16/11 4:13:42 PM CDT: [DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString default-value="${maven.resources.escapeString}"/>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory>${project.build.testOutputDirectory}</outputDirectory>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources>${project.testResources}</resources>
+  <session default-value="${session}"/>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+5/16/11 4:13:42 PM CDT: [DEBUG] =======================================================================
+5/16/11 4:13:42 PM CDT: [DEBUG] Could not find metadata org.apache.felix:org.apache.felix.scr.annotations:1.5.3-SNAPSHOT/maven-metadata.xml in local (/home/user1/.m2/repository)
+5/16/11 4:13:42 PM CDT: [DEBUG] Skipped remote update check for org.apache.felix:org.apache.felix.scr.annotations:1.5.3-SNAPSHOT/maven-metadata.xml, locally cached metadata up-to-date.
+5/16/11 4:13:42 PM CDT: [DEBUG] Failure to find org.apache.felix:org.apache.felix.scr.annotations:1.5.3-SNAPSHOT/maven-metadata.xml in https://oss.sonatype.org/content/repositories/snapshots was cached in the local repository, resolution will not be reattempted until the update interval of sonatype-nexus-snapshots has elapsed or updates are forced
+5/16/11 4:13:42 PM CDT: [DEBUG] com.carrotgarden:carrot-bug-scr-maven-plugin-002:bundle:1.0.0-SNAPSHOT
+5/16/11 4:13:42 PM CDT: [DEBUG]    com.carrotgarden:carrot-bug-scr-maven-plugin-001:jar:1.0.0-SNAPSHOT:compile
+5/16/11 4:13:42 PM CDT: [DEBUG]    org.apache.felix:org.apache.felix.scr.annotations:jar:1.5.3-SNAPSHOT:compile
+5/16/11 4:13:42 PM CDT: [DEBUG]    org.slf4j:slf4j-api:jar:1.6.1:compile
+5/16/11 4:13:42 PM CDT: [DEBUG]    org.osgi:org.osgi.compendium:jar:4.2.0:provided
+5/16/11 4:13:42 PM CDT: [DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.4.3:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.4.3--153454587, parent: sun.misc.Launcher$AppClassLoader@546b97fd]
+5/16/11 4:13:42 PM CDT: [DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.4.3:resources' with basic configurator -->
+5/16/11 4:13:42 PM CDT: [DEBUG]   (f) buildFilters = []
+5/16/11 4:13:42 PM CDT: [DEBUG]   (f) escapeWindowsPaths = true
+5/16/11 4:13:42 PM CDT: [DEBUG]   (s) includeEmptyDirs = false
+5/16/11 4:13:42 PM CDT: [DEBUG]   (s) outputDirectory = /home/user1/Workspaces/github/carrot-bugger/carrot-bug-scr-maven-plugin-002/target/classes
+5/16/11 4:13:42 PM CDT: [DEBUG]   (s) overwrite = false
+5/16/11 4:13:42 PM CDT: [DEBUG]   (f) project = MavenProject: com.carrotgarden:carrot-bug-scr-maven-plugin-002:1.0.0-SNAPSHOT @ /home/user1/Workspaces/github/carrot-bugger/carrot-bug-scr-maven-plugin-002/pom.xml
+5/16/11 4:13:42 PM CDT: [DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /home/user1/Workspaces/github/carrot-bugger/carrot-bug-scr-maven-plugin-002/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+5/16/11 4:13:42 PM CDT: [DEBUG]   (f) session = org.apache.maven.execution.MavenSession@5e69b38e
+5/16/11 4:13:42 PM CDT: [DEBUG]   (f) useBuildFilters = true
+5/16/11 4:13:42 PM CDT: [DEBUG]   (s) useDefaultDelimiters = true
+5/16/11 4:13:42 PM CDT: [DEBUG] -- end configuration --
+5/16/11 4:13:42 PM CDT: [DEBUG] properties used {env.SYSTEM_IMAGES=/var/system-images, env.DESKTOP_SESSION=kde, file.encoding.pkg=sun.io, org.osgi.framework.executionenvironment=OSGi/Minimum-1.0,OSGi/Minimum-1.1,OSGi/Minimum-1.2,JRE-1.1,J2SE-1.2,J2SE-1.3,J2SE-1.4,J2SE-1.5,JavaSE-1.6, osgi.framework=file:/home/user1/Apps/Genuitec/Common/plugins/org.eclipse.osgi_3.6.2.R36x_v20110210.jar, java.home=/opt/sun/java64/jdk1.6.0_24/jre, eclipse.application=org.eclipse.ui.ide.workbench, env.DISPLAY=:0.0, org.eclipse.debug.ui.breakpoints.toggleFactoriesUsed=true, env.XDG_SESSION_COOKIE=eb9b6ea137ea99868e6400b84b969972-1305207753.609280-619099548, java.endorsed.dirs=/opt/sun/java64/jdk1.6.0_24/jre/lib/endorsed, env.LOGNAME=user1, env.GS_LIB=/home/user1/.fonts, osgi.bundlestore=/home/user1/Apps/Genuitec/Profiles/barchart-3.6-work/configuration/org.eclipse.osgi/bundles, env.KDE_SESSION_UID=1000, env.SESSION_MANAGER=local/rasputin-02:@/tmp/.ICE-unix/4637,unix/rasputin-02:/tmp/.ICE-unix/4637, sun.os.patch.level=unknown, java.vendor.url=http://java.sun.com/, java.version=1.6.0_24, env.MAVEN_OPTS=         -Djavax.net.ssl.trustStore=/home/user1/.java/cacerts.jks   -Djavax.net.ssl.trustStorePassword=changeit    -Djavax.net.ssl.keyStore=/home/user1/.java/keystore.jks   -Djavax.net.ssl.keyStorePassword=changeit   -Dgpg.keyname=2E117339   -Dgpg.passphrase=d3af5a1b-5be4-89bf-efef-880c28907dd8            , osgi.os=linux, com.genuitec.pulse.common.server.url=https://www.poweredbypulse.com:443, org.eclipse.equinox.simpleconfigurator.configUrl=file:org.eclipse.equinox.simpleconfigurator/bundles.info, maynstall.basepath=/pulse/action/, osgi.splashPath=platform:/base/plugins/org.eclipse.platform, java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi, env.XDG_DATA_DIRS=/usr/share:/usr/share:/usr/local/share, jna.platform.library.path=/usr/lib64:/lib64, env.JAVA_OPTS=      -Djavax.net.ssl.trustStore=/home/user1/.java/cacerts.jks   -Djavax.net.ssl.trustStorePassword=changeit    -Djavax.net.ssl.keyStore=/home/user1/.java/keystore.jks   -Djavax.net.ssl.keyStorePassword=changeit   -Dgpg.keyname=2E117339   -Dgpg.passphrase=d3af5a1b-5be4-89bf-efef-880c28907dd8        , user.name=user1, env.LANG=en_US.UTF-8, org.osgi.framework.version=1.5.0, sun.io.unicode.encoding=UnicodeLittle, org.osgi.framework.system.packages=javax.accessibility,javax.activation,javax.activity,javax.annotation,javax.annotation.processing,javax.crypto,javax.crypto.interfaces,javax.crypto.spec,javax.imageio,javax.imageio.event,javax.imageio.metadata,javax.imageio.plugins.bmp,javax.imageio.plugins.jpeg,javax.imageio.spi,javax.imageio.stream,javax.jws,javax.jws.soap,javax.lang.model,javax.lang.model.element,javax.lang.model.type,javax.lang.model.util,javax.management,javax.management.loading,javax.management.modelmbean,javax.management.monitor,javax.management.openmbean,javax.management.relation,javax.management.remote,javax.management.remote.rmi,javax.management.timer,javax.naming,javax.naming.directory,javax.naming.event,javax.naming.ldap,javax.naming.spi,javax.net,javax.net.ssl,javax.print,javax.print.attribute,javax.print.attribute.standard,javax.print.event,javax.rmi,javax.rmi.CORBA,javax.rmi.ssl,javax.script,javax.security.auth,javax.security.auth.callback,javax.security.auth.kerberos,javax.security.auth.login,javax.security.auth.spi,javax.security.auth.x500,javax.security.cert,javax.security.sasl,javax.sound.midi,javax.sound.midi.spi,javax.sound.sampled,javax.sound.sampled.spi,javax.sql,javax.sql.rowset,javax.sql.rowset.serial,javax.sql.rowset.spi,javax.swing,javax.swing.border,javax.swing.colorchooser,javax.swing.event,javax.swing.filechooser,javax.swing.plaf,javax.swing.plaf.basic,javax.swing.plaf.metal,javax.swing.plaf.multi,javax.swing.plaf.synth,javax.swing.table,javax.swing.text,javax.swing.text.html,javax.swing.text.html.parser,javax.swing.text.rtf,javax.swing.tree,javax.swing.undo,javax.tools,javax.transaction,javax.transaction.xa,javax.xml,javax.xml.bind,javax.xml.bind.annotation,javax.xml.bind.annotation.adapters,javax.xml.bind.attachment,javax.xml.bind.helpers,javax.xml.bind.util,javax.xml.crypto,javax.xml.crypto.dom,javax.xml.crypto.dsig,javax.xml.crypto.dsig.dom,javax.xml.crypto.dsig.keyinfo,javax.xml.crypto.dsig.spec,javax.xml.datatype,javax.xml.namespace,javax.xml.parsers,javax.xml.soap,javax.xml.stream,javax.xml.stream.events,javax.xml.stream.util,javax.xml.transform,javax.xml.transform.dom,javax.xml.transform.sax,javax.xml.transform.stax,javax.xml.transform.stream,javax.xml.validation,javax.xml.ws,javax.xml.ws.handler,javax.xml.ws.handler.soap,javax.xml.ws.http,javax.xml.ws.soap,javax.xml.ws.spi,javax.xml.ws.wsaddressing,javax.xml.xpath,org.ietf.jgss,org.omg.CORBA,org.omg.CORBA_2_3,org.omg.CORBA_2_3.portable,org.omg.CORBA.DynAnyPackage,org.omg.CORBA.ORBPackage,org.omg.CORBA.portable,org.omg.CORBA.TypeCodePackage,org.omg.CosNaming,org.omg.CosNaming.NamingContextExtPackage,org.omg.CosNaming.NamingContextPackage,org.omg.Dynamic,org.omg.DynamicAny,org.omg.DynamicAny.DynAnyFactoryPackage,org.omg.DynamicAny.DynAnyPackage,org.omg.IOP,org.omg.IOP.CodecFactoryPackage,org.omg.IOP.CodecPackage,org.omg.Messaging,org.omg.PortableInterceptor,org.omg.PortableInterceptor.ORBInitInfoPackage,org.omg.PortableServer,org.omg.PortableServer.CurrentPackage,org.omg.PortableServer.POAManagerPackage,org.omg.PortableServer.POAPackage,org.omg.PortableServer.portable,org.omg.PortableServer.ServantLocatorPackage,org.omg.SendingContext,org.omg.stub.java.rmi,org.w3c.dom,org.w3c.dom.bootstrap,org.w3c.dom.css,org.w3c.dom.events,org.w3c.dom.html,org.w3c.dom.ls,org.w3c.dom.ranges,org.w3c.dom.stylesheets,org.w3c.dom.traversal,org.w3c.dom.views,org.w3c.dom.xpath,org.xml.sax,org.xml.sax.ext,org.xml.sax.helpers, sun.jnu.encoding=UTF-8, env.DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-jJoVWAEfCZ,guid=adf85f1125904af94b3e099c4dcbe3c9, java.runtime.name=Java(TM) SE Runtime Environment, systemProxySet=true, osgi.instance.area.default=file:/home/user1/Workspaces/barchart-3.6-work/, eclipse.launcher.name=Eclipse, eclipse.product=org.eclipse.platform.ide, java.specification.name=Java Platform API Specification, org.osgi.supports.framework.fragment=true, user.timezone=America/Chicago, osgi.nl=en_US, path.separator=:, file.encoding=UTF-8, osgi.arch=x86_64, javax.net.ssl.keyStore=/home/user1/.java/keystore.jks, env.HOME=/home/user1, org.osgi.supports.framework.requirebundle=true, env.GTK_RC_FILES=/etc/gtk/gtkrc:/home/user1/.gtkrc::/home/user1/.kde/share/config/gtkrc, osgi.bundles.defaultStartLevel=4, osgi.bundles=reference:file:org.eclipse.equinox.weaving.hook_1.0.0.v20100108.jar,reference:file:org.eclipse.equinox.simpleconfigurator_1.0.200.v20100503.jar@1:start, java.io.tmpdir=/tmp, org.osgi.framework.os.name=Linux, equinox.use.ds=true, user.language=en, javax.net.ssl.trustStorePassword=changeit, line.separator=
+, env.BARCHART_PACKET_REPOSITORY=/var/barchart-packets, env.SSH_AGENT_PID=4534, org.osgi.framework.processor=x86-64, gpg.keyname=2E117339, java.vm.info=mixed mode, osgi.manifest.cache=/home/user1/Apps/Genuitec/Profiles/barchart-3.6-work/configuration/org.eclipse.osgi/manifests, osgi.splashLocation=/home/user1/Apps/Genuitec/Common/plugins/org.eclipse.platform_3.6.2.v201102101200/splash.bmp, proxySet=true, pulse.console.redirect=true, pulse.initialized.logging=true, com.genuitec.pulse.client.blueprint.id=rmb-1154248, java.vm.specification.name=Java Virtual Machine Specification, env.R_LIBS_USER=/home/user1/R/x86_64-pc-linux-gnu-library/2.10, env.M2_HOME=/opt/apache-maven-3.0.3, guice.disable.misplaced.annotation.check=true, javax.net.ssl.keyStorePassword=changeit, eclipse.vm=/opt/sun/java64/jdk1.6.0_24/bin/java, osgi.configuration.area=file:/home/user1/Apps/Genuitec/Profiles/barchart-3.6-work/configuration/, java.awt.printerjob=sun.print.PSPrinterJob, env.DM_CONTROL=/var/run/xdmctl, env.JAVAFX_HOME=/opt/sun/javafx-sdk-1.3.1, com.genuitec.pulse.client.basedir.location.override=/home/user1/Apps/Genuitec, javax.net.ssl.trustStore=/home/user1/.java/cacerts.jks, osgi.ws=gtk, org.osgi.supports.framework.extension=true, env.JAVA_KEYS=   -Djavax.net.ssl.trustStore=/home/user1/.java/cacerts.jks   -Djavax.net.ssl.trustStorePassword=changeit    -Djavax.net.ssl.keyStore=/home/user1/.java/keystore.jks   -Djavax.net.ssl.keyStorePassword=changeit   -Dgpg.keyname=2E117339   -Dgpg.passphrase=d3af5a1b-5be4-89bf-efef-880c28907dd8    , com.genuitec.pulse.client.credentials=PVyTIkapAtSf52gzuN0YDMqZqKS0N65JzF7KlLI/THATmHX/C6e7Q2EpFpy5uOIfJUTqDBPkKyVh 1yET4fhWgJjfHv53TEhjEk/LVpXAnhexnBN3+VNFRL/81nI02peKB11lT5v+gWlS/AKVVsiYgcJL vJ9D8/pLuR9Dmf8ICDk=, eclipse.p2.data.area=file:/home/user1/Apps/Genuitec/Common/configuration/, osgi.framework.extensions=reference:file:org.eclipse.equinox.weaving.hook_1.0.0.v20100108.jar, org.osgi.framework.language=en, os.name=Linux, eclipse.home.location=file:/home/user1/Apps/Genuitec/Profiles/barchart-3.6-work/, java.specification.vendor=Sun Microsystems Inc., eclipse.vmargs=-server
+-Xms1300m
+-Xmx1300m
+-XX:PermSize=700m
+-XX:MaxPermSize=700m
+-XX:NewSize=100m
+-XX:MaxNewSize=100m
+-XX:SurvivorRatio=2
+-XX:MaxTenuringThreshold=3
+-XX:+UseParNewGC
+-XX:+UseConcMarkSweepGC
+-XX:+CMSIncrementalMode
+-Djavax.net.ssl.trustStore=/home/user1/.java/cacerts.jks
+-Djavax.net.ssl.trustStorePassword=changeit
+-Djavax.net.ssl.keyStore=/home/user1/.java/keystore.jks
+-Djavax.net.ssl.keyStorePassword=changeit
+-Dgpg.keyname=2E117339
+-Dgpg.passphrase=d3af5a1b-5be4-89bf-efef-880c28907dd8
+-jar
+/home/user1/Apps/Genuitec/Profiles/barchart-3.6-work//../../Common/plugins/org.eclipse.equinox.launcher_1.1.1.R36x_v20101122_1400.jar
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.KDE_SESSION_VERSION=4, eclipse.buildId=Powered by Pulse, java.library.path=/opt/sun/java64/jdk1.6.0_24/jre/lib/amd64/server:/opt/sun/java64/jdk1.6.0_24/jre/lib/amd64:/opt/sun/java64/jdk1.6.0_24/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib, env.PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games, m2e.version=0.12.1, eclipse.commands=-os
+linux
+-ws
+gtk
+-arch
+x86_64
+-showsplash
+-launcher
+/home/user1/Apps/Genuitec/Profiles/barchart-3.6-work/eclipse
+-name
+Eclipse
+--launcher.library
+/home/user1/Apps/Genuitec/Profiles/barchart-3.6-work//../../Common/plugins/org.eclipse.equinox.launcher.gtk.linux.x86_64_1.1.2.R36x_v20101019_1345/eclipse_1310.so
+-startup
+/home/user1/Apps/Genuitec/Profiles/barchart-3.6-work//../../Common/plugins/org.eclipse.equinox.launcher_1.1.1.R36x_v20101122_1400.jar
+-exitdata
+620004
+-install
+/home/user1/Apps/Genuitec/Profiles/barchart-3.6-work
+-configuration
+/home/user1/Apps/Genuitec/Profiles/barchart-3.6-work/configuration
+-clean
+-keyring
+/home/user1/.eclipse/secret/keyring.file
+-vm
+/opt/sun/java64/jdk1.6.0_24/bin/java
+, java.class.version=50.0, osgi.syspath=/home/user1/Apps/Genuitec/Common/plugins, env.SHLVL=0, env.LD_LIBRARY_PATH=/opt/sun/java64/jdk1.6.0_24/jre/lib/amd64/server:/opt/sun/java64/jdk1.6.0_24/jre/lib/amd64:/opt/sun/java64/jdk1.6.0_24/jre/../lib/amd64, com.genuitec.pulse.client.handshake.id=44a5ae59-302e-4e87-a2c9-6a95a98d9c65, env.KDE_MULTIHEAD=false, org.eclipse.equinox.launcher.splash.location=/home/user1/Apps/Genuitec/Common/plugins/org.eclipse.platform_3.6.2.v201102101200/splash.bmp, maynstall.rootelement=pulse, env.MOZILLA_FIVE_HOME=/usr/lib64/xulrunner-addons, osgi.instance.area=file:/home/user1/Workspaces/barchart-3.6-work/, osgi.install.area=file:/home/user1/Apps/Genuitec/Profiles/barchart-3.6-work/, sun.boot.library.path=/opt/sun/java64/jdk1.6.0_24/jre/lib/amd64, sun.management.compiler=HotSpot 64-Bit Server Compiler, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, env.USER=user1, env.GTK_MODULES=canberra-gtk-module, env.QT_PLUGIN_PATH=/home/user1/.kde/lib/kde4/plugins/:/usr/lib/kde4/plugins/, java.vm.specification.version=1.0, env.NLSPATH=/usr/dt/lib/nls/msg/%L/%N.cat, sun.cpu.isalist=, org.eclipse.update.reconcile=false, securerandom.source=file:/dev/./urandom, java.ext.dirs=/opt/sun/java64/jdk1.6.0_24/jre/lib/ext:/usr/java/packages/lib/ext, osgi.framework.version=3.6.2.R36x_v20110210, os.version=2.6.32-29-generic, eclipse.launcher=/home/user1/Apps/Genuitec/Profiles/barchart-3.6-work/eclipse, user.home=/home/user1, java.vm.vendor=Sun Microsystems Inc., env.KDE_FULL_SESSION=true, env.JAVA_HOME=/opt/sun/java64/jdk1.6.0_24, user.dir=/home/user1/Documents, env.XFILESEARCHPATH=/usr/dt/app-defaults/%L/Dt, env.WINDOWPATH=7, org.osgi.framework.os.version=2.6.32, osgi.framework.shape=jar, env.PWD=/home/user1/Documents, sun.cpu.endian=little, env.GTK2_RC_FILES=/etc/gtk-2.0/gtkrc:/home/user1/.gtkrc-2.0:/home/user1/.gtkrc-2.0-kde4:/home/user1/.kde/share/config/gtkrc-2.0, eclipse.startTime=1305579910429, java.vm.version=19.1-b02, gpg.passphrase=d3af5a1b-5be4-89bf-efef-880c28907dd8, java.class.path=/home/user1/Apps/Genuitec/Profiles/barchart-3.6-work//../../Common/plugins/org.eclipse.equinox.launcher_1.1.1.R36x_v20101122_1400.jar, env.XCURSOR_THEME=oxy-white, os.arch=amd64, eclipse.p2.profile=com.poweredbypulse.profile-644711-rmb-1154248, sun.java.launcher=SUN_STANDARD, org.osgi.framework.vendor=Eclipse, osgi.tracefile=/home/user1/Workspaces/barchart-3.6-work/.metadata/trace.log, java.vm.specification.vendor=Sun Microsystems Inc., file.separator=/, java.runtime.version=1.6.0_24-b07, env.SSH_AUTH_SOCK=/tmp/ssh-GuGLrC4477/agent.4477, env.XDM_MANAGED=method=classic, sun.boot.class.path=/opt/sun/java64/jdk1.6.0_24/jre/lib/resources.jar:/opt/sun/java64/jdk1.6.0_24/jre/lib/rt.jar:/opt/sun/java64/jdk1.6.0_24/jre/lib/sunrsasign.jar:/opt/sun/java64/jdk1.6.0_24/jre/lib/jsse.jar:/opt/sun/java64/jdk1.6.0_24/jre/lib/jce.jar:/opt/sun/java64/jdk1.6.0_24/jre/lib/charsets.jar:/opt/sun/java64/jdk1.6.0_24/jre/lib/modules/jdk.boot.jar:/opt/sun/java64/jdk1.6.0_24/jre/classes, osgi.clean=true, osgi.frameworkClassPath=., file:/home/user1/Apps/Genuitec/Common/plugins/org.eclipse.equinox.weaving.hook_1.0.0.v20100108.jar, user.country=US, env.SHELL=/bin/bash, osgi.logfile=/home/user1/Workspaces/barchart-3.6-work/.metadata/.log, java.vendor=Sun Microsystems Inc., env.GPG_AGENT_INFO=/tmp/gpg-DEjBzh/S.gpg-agent:4535:1, env.ECLIPSE_HOME=/home/user1/Apps/Genuitec/Profiles/barchart-3.6-work, java.specification.version=1.6, env.SPEECHD_PORT=7560, sun.arch.data.model=64}
+5/16/11 4:13:42 PM CDT: [WARN] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+5/16/11 4:13:42 PM CDT: [DEBUG] resource with targetPath null
+directory /home/user1/Workspaces/github/carrot-bugger/carrot-bug-scr-maven-plugin-002/src/main/resources
+excludes []
+includes []
+5/16/11 4:13:42 PM CDT: [INFO] skip non existing resourceDirectory /home/user1/Workspaces/github/carrot-bugger/carrot-bug-scr-maven-plugin-002/src/main/resources
+5/16/11 4:13:42 PM CDT: [DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:2.3.2--2067375915, parent: sun.misc.Launcher$AppClassLoader@546b97fd]
+5/16/11 4:13:42 PM CDT: [DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:2.3.2:compile' with basic configurator -->
+5/16/11 4:13:42 PM CDT: [DEBUG]   (f) basedir = /home/user1/Workspaces/github/carrot-bugger/carrot-bug-scr-maven-plugin-002
+5/16/11 4:13:42 PM CDT: [DEBUG]   (f) buildDirectory = /home/user1/Workspaces/github/carrot-bugger/carrot-bug-scr-maven-plugin-002/target
+5/16/11 4:13:42 PM CDT: [DEBUG]   (f) classpathElements = [/home/user1/Workspaces/github/carrot-bugger/carrot-bug-scr-maven-plugin-002/target/classes, /home/user1/Workspaces/github/carrot-bugger/carrot-bug-scr-maven-plugin-001/target/classes, /home/user1/.m2/repository/org/apache/felix/org.apache.felix.scr.annotations/1.5.3-SNAPSHOT/org.apache.felix.scr.annotations-1.5.3-SNAPSHOT.jar, /home/user1/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar, /home/user1/.m2/repository/org/osgi/org.osgi.compendium/4.2.0/org.osgi.compendium-4.2.0.jar]
+5/16/11 4:13:42 PM CDT: [DEBUG]   (f) compileSourceRoots = [/home/user1/Workspaces/github/carrot-bugger/carrot-bug-scr-maven-plugin-002/src/main/java]
+5/16/11 4:13:42 PM CDT: [DEBUG]   (f) compilerId = javac
+5/16/11 4:13:42 PM CDT: [DEBUG]   (f) debug = true
+5/16/11 4:13:42 PM CDT: [DEBUG]   (f) failOnError = true
+5/16/11 4:13:42 PM CDT: [DEBUG]   (f) fork = false
+5/16/11 4:13:42 PM CDT: [DEBUG]   (f) generatedSourcesDirectory = /home/user1/Workspaces/github/carrot-bugger/carrot-bug-scr-maven-plugin-002/target/generated-sources/annotations
+5/16/11 4:13:42 PM CDT: [DEBUG]   (f) optimize = false
+5/16/11 4:13:42 PM CDT: [DEBUG]   (f) outputDirectory = /home/user1/Workspaces/github/carrot-bugger/carrot-bug-scr-maven-plugin-002/target/classes
+5/16/11 4:13:42 PM CDT: [DEBUG]   (f) outputFileName = carrot-bug-scr-maven-plugin-002-1.0.0-SNAPSHOT
+5/16/11 4:13:42 PM CDT: [DEBUG]   (f) projectArtifact = com.carrotgarden:carrot-bug-scr-maven-plugin-002:bundle:1.0.0-SNAPSHOT
+5/16/11 4:13:42 PM CDT: [DEBUG]   (f) session = org.apache.maven.execution.MavenSession@5e69b38e
+5/16/11 4:13:42 PM CDT: [DEBUG]   (f) showDeprecation = false
+5/16/11 4:13:42 PM CDT: [DEBUG]   (f) showWarnings = false
+5/16/11 4:13:42 PM CDT: [DEBUG]   (f) source = 1.5
+5/16/11 4:13:42 PM CDT: [DEBUG]   (f) staleMillis = 0
+5/16/11 4:13:42 PM CDT: [DEBUG]   (f) target = 1.5
+5/16/11 4:13:42 PM CDT: [DEBUG]   (f) verbose = false
+5/16/11 4:13:42 PM CDT: [DEBUG] -- end configuration --
+5/16/11 4:13:42 PM CDT: [DEBUG] Using compiler 'javac'.
+5/16/11 4:13:42 PM CDT: [DEBUG] Source directories: [/home/user1/Workspaces/github/carrot-bugger/carrot-bug-scr-maven-plugin-002/src/main/java]
+5/16/11 4:13:42 PM CDT: [DEBUG] Classpath: [/home/user1/Workspaces/github/carrot-bugger/carrot-bug-scr-maven-plugin-002/target/classes
+ /home/user1/Workspaces/github/carrot-bugger/carrot-bug-scr-maven-plugin-001/target/classes
+ /home/user1/.m2/repository/org/apache/felix/org.apache.felix.scr.annotations/1.5.3-SNAPSHOT/org.apache.felix.scr.annotations-1.5.3-SNAPSHOT.jar
+ /home/user1/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar
+ /home/user1/.m2/repository/org/osgi/org.osgi.compendium/4.2.0/org.osgi.compendium-4.2.0.jar]
+5/16/11 4:13:42 PM CDT: [DEBUG] Output directory: /home/user1/Workspaces/github/carrot-bugger/carrot-bug-scr-maven-plugin-002/target/classes
+5/16/11 4:13:42 PM CDT: [INFO] Nothing to compile - all classes are up to date
+5/16/11 4:13:42 PM CDT: [DEBUG] Configuring mojo org.apache.felix:maven-scr-plugin:1.7.1-SNAPSHOT:scr from plugin realm ClassRealm[plugin>org.apache.felix:maven-scr-plugin:1.7.1-SNAPSHOT--1718847074, parent: sun.misc.Launcher$AppClassLoader@546b97fd]
+5/16/11 4:13:42 PM CDT: [DEBUG] Configuring mojo 'org.apache.felix:maven-scr-plugin:1.7.1-SNAPSHOT:scr' with basic configurator -->
+5/16/11 4:13:42 PM CDT: [DEBUG]   (f) finalName = serviceComponents.xml
+5/16/11 4:13:42 PM CDT: [DEBUG]   (f) generateAccessors = true
+5/16/11 4:13:42 PM CDT: [DEBUG]   (f) metaTypeName = metatype.xml
+5/16/11 4:13:42 PM CDT: [DEBUG]   (f) outputDirectory = /home/user1/Workspaces/github/carrot-bugger/carrot-bug-scr-maven-plugin-002/target/classes
+5/16/11 4:13:42 PM CDT: [DEBUG]   (f) parseJavadoc = true
+5/16/11 4:13:42 PM CDT: [DEBUG]   (f) processAnnotations = true
+5/16/11 4:13:42 PM CDT: [DEBUG]   (f) project = MavenProject: com.carrotgarden:carrot-bug-scr-maven-plugin-002:1.0.0-SNAPSHOT @ /home/user1/Workspaces/github/carrot-bugger/carrot-bug-scr-maven-plugin-002/pom.xml
+5/16/11 4:13:42 PM CDT: [DEBUG]   (f) strictMode = false
+5/16/11 4:13:42 PM CDT: [DEBUG] -- end configuration --
+5/16/11 4:13:42 PM CDT: [DEBUG] Starting SCRDescriptorMojo....
+5/16/11 4:13:42 PM CDT: [DEBUG] ..generating accessors: true
+5/16/11 4:13:42 PM CDT: [DEBUG] ..parsing javadocs: true
+5/16/11 4:13:42 PM CDT: [DEBUG] ..processing annotations: true
+5/16/11 4:13:42 PM CDT: [DEBUG] ..auto detecting spec version
+5/16/11 4:13:42 PM CDT: [DEBUG] Setting up QDox
+5/16/11 4:13:42 PM CDT: [DEBUG] Scanning source tree /home/user1/Workspaces/github/carrot-bugger/carrot-bug-scr-maven-plugin-002/src/main/java
+5/16/11 4:13:42 PM CDT: [DEBUG] Adding source file /home/user1/Workspaces/github/carrot-bugger/carrot-bug-scr-maven-plugin-002/src/main/java/case_02/HostServiceConsumer.java
+5/16/11 4:13:42 PM CDT: [DEBUG] Searching description for: case_02.HostServiceConsumer
+5/16/11 4:13:42 PM CDT: [DEBUG] Found java annotation description for: case_02.HostServiceConsumer
+5/16/11 4:13:42 PM CDT: [DEBUG] Testing source case_02.HostServiceConsumer
+5/16/11 4:13:42 PM CDT: [DEBUG] Processing service class case_02.HostServiceConsumer
+5/16/11 4:13:42 PM CDT: [DEBUG] Searching description for: java.lang.Object
+5/16/11 4:13:42 PM CDT: [DEBUG] Generating classloader description for: java.lang.Object
+5/16/11 4:13:42 PM CDT: [DEBUG] Checking artifact com.carrotgarden:carrot-bug-scr-maven-plugin-001:jar:1.0.0-SNAPSHOT:compile
+5/16/11 4:13:42 PM CDT: [DEBUG] Resolving artifact com.carrotgarden:carrot-bug-scr-maven-plugin-001:jar:1.0.0-SNAPSHOT:compile
+5/16/11 4:13:42 PM CDT: [DEBUG] Checking artifact org.apache.felix:org.apache.felix.scr.annotations:jar:1.5.3-SNAPSHOT:compile
+5/16/11 4:13:42 PM CDT: [DEBUG] Resolving artifact org.apache.felix:org.apache.felix.scr.annotations:jar:1.5.3-SNAPSHOT:compile
+5/16/11 4:13:42 PM CDT: [DEBUG] Checking artifact org.slf4j:slf4j-api:jar:1.6.1:compile
+5/16/11 4:13:42 PM CDT: [DEBUG] Resolving artifact org.slf4j:slf4j-api:jar:1.6.1:compile
+5/16/11 4:13:42 PM CDT: [DEBUG] Checking artifact org.osgi:org.osgi.compendium:jar:4.2.0:provided
+5/16/11 4:13:42 PM CDT: [DEBUG] Resolving artifact org.osgi:org.osgi.compendium:jar:4.2.0:provided
+5/16/11 4:13:42 PM CDT: [DEBUG] Trying to get manifest from artifact /home/user1/Workspaces/github/carrot-bugger/carrot-bug-scr-maven-plugin-001/target/classes
+5/16/11 4:13:42 PM CDT: [DEBUG] Unable to get manifest from artifact /home/user1/Workspaces/github/carrot-bugger/carrot-bug-scr-maven-plugin-001/target/classes
+5/16/11 4:13:42 PM CDT: [DEBUG] Trying to get scrinfo from artifact /home/user1/Workspaces/github/carrot-bugger/carrot-bug-scr-maven-plugin-001/target/classes
+5/16/11 4:13:42 PM CDT: [DEBUG] ..generating descriptor for spec version: null
+5/16/11 4:13:42 PM CDT: [ERROR] Unable to get scrinfo from artifact at /home/user1/Workspaces/github/carrot-bugger/carrot-bug-scr-maven-plugin-001/target/classes:0
+5/16/11 4:13:42 PM CDT: Build errors for carrot-bug-scr-maven-plugin-002; org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.felix:maven-scr-plugin:1.7.1-SNAPSHOT:scr (scr) on project carrot-bug-scr-maven-plugin-002: SCR Descriptor parsing had failures (see log)
