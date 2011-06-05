@@ -3,5 +3,6 @@
     <scr:component enabled="true" name="this-is-really-a-compile-time-constant">
         <implementation class="bench.TestComponent"/>
         <property name="service.pid" type="String" value="bench.Name.this-is-a-non-compile-time-constant"/>
+        <property name="component.name" type="String" value="bench.Name.this-is-a-non-compile-time-constant"/>
     </scr:component>
 </components>
