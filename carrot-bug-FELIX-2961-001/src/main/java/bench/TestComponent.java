@@ -13,6 +13,7 @@ import org.apache.felix.scr.annotations.Property;
  */
 // @Component(name = Name.PID)
 
+// lets give java annotation process what it wants
 @Component(name = "this-is-really-a-compile-time-constant")
 public class TestComponent {
 
@@ -25,8 +26,9 @@ public class TestComponent {
 
 	/*
 	 * I would like the same magic on the following property; so, if present, it
-	 * should be applied to the <component> level, as if it was defined there,
-	 * hence override whatever is provided by the component annotation above
+	 * should be applied to the <scr:component ... > level, as if it was defined
+	 * there, hence override whatever is provided by the component annotation
+	 * above
 	 */
 	@Property(name = "component.name")
 	protected static final String NAME = Name.PID;
