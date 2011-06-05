@@ -25,7 +25,8 @@ public class TestComponent {
 
 	/*
 	 * I would like the same magic on the following property; so, if present, it
-	 * should be applied to the <component> level, as if it was defined there
+	 * should be applied to the <component> level, as if it was defined there,
+	 * hence override whatever is provided by the component annotation above
 	 */
 	@Property(name = "component.name")
 	protected static final String NAME = Name.PID;
