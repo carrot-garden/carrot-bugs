@@ -13,7 +13,7 @@ import org.apache.felix.scr.annotations.Property;
  */
 // @Component(name = Name.PID)
 
-// lets give java annotation process what it wants
+// lets give java annotation processor what it wants
 @Component(name = "this-is-really-a-compile-time-constant")
 public class TestComponent {
 
