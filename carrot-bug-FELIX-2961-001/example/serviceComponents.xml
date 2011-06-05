@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.0.0">
+    <scr:component enabled="true" name="this-is-really-a-compile-time-constant">
+        <implementation class="bench.TestComponent"/>
+        <property name="service.pid" type="String" value="bench.Name.this-is-a-non-compile-time-constant"/>
+    </scr:component>
+</components>
