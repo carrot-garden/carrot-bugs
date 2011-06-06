@@ -11,16 +11,16 @@ import org.apache.felix.scr.annotations.Modified;
 public class CompDirect {
 
 	@Activate
-	protected final void activateDIRECT(final Map<String, String> config) {
+	protected final void activate(final Map<String, String> config) {
 	}
 
 	@Deactivate
-	protected final void deactivateDIRECT(final Map<String, String> config) {
+	protected final void deactivate(final Map<String, String> config) {
 
 	}
 
 	@Modified
-	protected final void modifiedDIRECT(final Map<String, String> config) {
+	protected final void modified(final Map<String, String> config) {
 
 	}
 

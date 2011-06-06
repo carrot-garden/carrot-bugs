@@ -7,16 +7,16 @@ import org.apache.felix.scr.annotations.Component;
 @Component
 public class CompInherited extends CompBase {
 
-	protected final void activateINHERITED(final Map<String, String> config) {
-		activateBASE(config);
+	@Override
+	protected void activate(Map<String, String> config) {
 	}
 
-	protected final void deactivateINHERITED(final Map<String, String> config) {
-		deactivateBASE(config);
+	@Override
+	protected void deactivate(Map<String, String> config) {
 	}
 
-	protected final void modifiedINHERITED(final Map<String, String> config) {
-		modifiedBASE(config);
+	@Override
+	protected void modified(Map<String, String> config) {
 	}
 
 }
