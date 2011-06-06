@@ -16,12 +16,10 @@ public class CompDirect {
 
 	@Deactivate
 	protected final void deactivate(final Map<String, String> config) {
-
 	}
 
 	@Modified
 	protected final void modified(final Map<String, String> config) {
-
 	}
 
 }
