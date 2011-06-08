@@ -1,0 +1,158 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.carrotgarden</groupId>
+	<artifactId>carrot-bug-FELIX-2980-001</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<pluginRepositories>
+		<pluginRepository>
+			<id>apache-plugin-snapshots</id>
+			<url>http://repository.apache.org/snapshots/</url>
+		</pluginRepository>
+	</pluginRepositories>
+
+	<repositories>
+		<repository>
+			<id>apache-snapshots</id>
+			<url>http://repository.apache.org/snapshots/</url>
+		</repository>
+	</repositories>
+
+	<modules>
+		<module>carrot-bug-FELIX-2980-001-api</module>
+		<module>carrot-bug-FELIX-2980-001-core</module>
+	</modules>
+
+	<properties>
+	</properties>
+
+	<dependencyManagement>
+
+		<dependencies>
+
+			<dependency>
+				<groupId>org.apache.felix</groupId>
+				<artifactId>org.apache.felix.scr.annotations</artifactId>
+				<!-- <version>1.5.0</version> -->
+				<version>1.5.3-SNAPSHOT</version>
+				<optional>true</optional>
+			</dependency>
+
+			<dependency>
+				<groupId>org.osgi</groupId>
+				<artifactId>org.osgi.core</artifactId>
+				<version>4.2.0</version>
+				<optional>true</optional>
+				<scope>provided</scope>
+			</dependency>
+
+			<dependency>
+				<groupId>org.osgi</groupId>
+				<artifactId>org.osgi.compendium</artifactId>
+				<version>4.2.0</version>
+				<optional>true</optional>
+				<scope>provided</scope>
+			</dependency>
+
+		</dependencies>
+
+	</dependencyManagement>
+
+	<build>
+
+		<pluginManagement>
+
+			<plugins>
+
+				<plugin>
+					<groupId>org.apache.felix</groupId>
+					<artifactId>maven-scr-plugin</artifactId>
+					<!-- <version>1.7.0</version> -->
+					<version>1.7.1-SNAPSHOT</version>
+					<executions>
+						<execution>
+							<id>scr</id>
+							<goals>
+								<goal>scr</goal>
+							</goals>
+						</execution>
+					</executions>
+				</plugin>
+
+				<plugin>
+					<groupId>org.apache.felix</groupId>
+					<artifactId>maven-bundle-plugin</artifactId>
+					<!-- <version>2.3.4</version> -->
+					<version>2.3.5-SNAPSHOT</version>
+					<extensions>true</extensions>
+				</plugin>
+
+			</plugins>
+
+		</pluginManagement>
+
+		<!-- TODO review platform contract on naming *.java vs *.bxml -->
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+			</resource>
+			<resource>
+				<directory>src/main/java</directory>
+				<filtering>false</filtering>
+				<includes>
+					<include>**/*.bxml</include>
+					<include>**/*.json</include>
+				</includes>
+			</resource>
+		</resources>
+
+		<plugins>
+
+			<plugin>
+				<groupId>org.apache.felix</groupId>
+				<artifactId>maven-scr-plugin</artifactId>
+				<configuration>
+					<outputDirectory>${project.build.directory}/classes</outputDirectory>
+				</configuration>
+				<executions>
+					<execution>
+						<id>scr</id>
+						<phase>process-classes</phase>
+						<goals>
+							<goal>scr</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.felix</groupId>
+				<artifactId>maven-bundle-plugin</artifactId>
+				<extensions>true</extensions>
+				<configuration>
+					<instructions>
+						<Import-Package>*,META-INF.services</Import-Package>
+						<Service-Component>OSGI-INF/serviceComponents.xml</Service-Component>
+					</instructions>
+				</configuration>
+				<executions>
+					<execution>
+						<id>manifest</id>
+						<phase>process-classes</phase>
+						<goals>
+							<goal>manifest</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+
+		</plugins>
+
+	</build>
+
+</project>
