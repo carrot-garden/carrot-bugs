@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<components xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0">
+    <scr:component enabled="true" name="bench.CompDirect" activate="activate" deactivate="deactivate" modified="modified">
+        <implementation class="bench.CompDirect"/>
+        <property name="service.pid" value="bench.CompDirect"/>
+    </scr:component>
+    <scr:component enabled="true" name="bench.CompInherited">
+        <implementation class="bench.CompInherited"/>
+        <property name="service.pid" value="bench.CompInherited"/>
+    </scr:component>
+</components>
