@@ -1,0 +1,66 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.carrotgarden</groupId>
+		<artifactId>carrot-bug-FELIX-2765-001</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+
+	<groupId>com.carrotgarden</groupId>
+	<artifactId>carrot-bug-FELIX-2765-001-media</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>bundle</packaging>
+
+	<properties>
+		<inputDir>${basedir}/src/main/resources/images</inputDir>
+		<scriptDir>${inputDir}/script</scriptDir>
+		<outputDir>${basedir}/target/classes/images</outputDir>
+	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>1.2</version>
+				<executions>
+					<execution>
+						<id>basic test</id>
+						<phase>process-resources</phase>
+						<goals>
+							<goal>exec</goal>
+						</goals>
+						<configuration>
+							<executable>bash</executable>
+							<arguments>
+								<argument>${scriptDir}/test.sh</argument>
+								<argument>hello</argument>
+								<argument>world</argument>
+							</arguments>
+						</configuration>
+					</execution>
+					<execution>
+						<id>make brand test</id>
+						<phase>process-resources</phase>
+						<goals>
+							<goal>exec</goal>
+						</goals>
+						<configuration>
+							<executable>bash</executable>
+							<arguments>
+								<argument>${scriptDir}/convert_all.sh</argument>
+								<argument>${inputDir}</argument>
+								<argument>brand/test</argument>
+								<argument>${outputDir}</argument>
+							</arguments>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
