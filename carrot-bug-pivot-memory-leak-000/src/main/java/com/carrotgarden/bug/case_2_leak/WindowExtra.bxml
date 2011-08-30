@@ -1,0 +1,19 @@
+<ui:WindowExtra title="pivot bugs" maximized="true"
+	xmlns:bxml="http://pivot.apache.org/bxml" xmlns="org.apache.pivot.wtk"
+	xmlns:ui="com.carrotgarden.bug.case_2_leak">
+
+	<BoxPane orientation="vertical"
+		styles="{padding:10, horizontalAlignment:'center', verticalAlignment:'center'}">
+
+		<Label text="MainPivot"
+			styles="{font:'Arial bold 24', color:'#ff0000', horizontalAlignment:'center', verticalAlignment:'center'}" />
+
+		<Label text="counter" bxml:id="counter"
+			styles="{font:'Arial bold 24', color:'#ff0000', horizontalAlignment:'center', verticalAlignment:'center'}" />
+
+		<ActivityIndicator bxml:id="activity"
+			preferredWidth="24" preferredHeight="24" />
+
+	</BoxPane>
+
+</ui:WindowExtra>
