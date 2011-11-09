@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<artifactId>carrot-bug-scala-ide-1000734</artifactId>
+		<groupId>com.carrotgarden</groupId>
+		<version>1.0.0-SNAPSHOT</version>
+		<relativePath>..</relativePath>
+	</parent>
+
+	<artifactId>carrot-bug-scala-ide-1000734-grand</artifactId>
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>carrot-bug-scala-ide-1000734-grandchild-0</module>
+		<module>carrot-bug-scala-ide-1000734-grandchild-1</module>
+	</modules>
+
+</project>
